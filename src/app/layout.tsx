@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
-import { Press_Start_2P } from "next/font/google";
+import { Montserrat_Alternates } from "next/font/google";
 
-const inter = Press_Start_2P({
+const montserratAlternates = Montserrat_Alternates({
   weight: "400",
   subsets: ["latin"],
 });
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={montserratAlternates.className}>{children}</body>
     </html>
   );
 }
